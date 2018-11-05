@@ -1,7 +1,7 @@
 ---
 title: "Top 20 Cities by Total Orders"
 author: "Brilliant Author"
-date: "11/5/2018"
+date: "`r format(Sys.time(), '%Y-%m-%d %H:%M:%S')`"
 output: word_document
 ---
 
