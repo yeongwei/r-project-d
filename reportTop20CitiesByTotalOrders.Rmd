@@ -1,0 +1,20 @@
+---
+title: "Top 20 Cities by Total Orders"
+author: "Brilliant Author"
+date: "11/5/2018"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r source}
+source("aggregations.R")
+
+library(knitr)
+```
+
+```{r function}
+kable(getTop20CitiesByTotalorders())
+```
